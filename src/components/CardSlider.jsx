@@ -26,7 +26,7 @@ export default class CardSlider extends React.Component {
   }
 
   componentDidMount() {
-    axios.get("http://localhost:5000/api/products")
+    axios.get("http://188.40.180.193:5000/api/products")
       .then(res => {
         this.setState({ list: res.data });
       })
