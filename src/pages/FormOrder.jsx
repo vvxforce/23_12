@@ -28,7 +28,7 @@ function FormOrder(props) {
 
   const history = useHistory();
   const location = useLocation();
-  const baseURL = "http://localhost:5000/api";
+  const baseURL = "http://188.40.180.193:5000/api";
 
   const name = useRef(null);
   const address = useRef(null);
