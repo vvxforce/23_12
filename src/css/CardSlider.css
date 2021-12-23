@@ -1,0 +1,22 @@
+.btn-slider {
+    width: 41px;
+    height: 36px;
+    z-index: 99;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin: 0 80px;
+    background: none;
+}
+
+@media (max-width: 799px) {
+    .arrows {
+        width: 100%;
+        text-align: center;
+    }
+    .btn-slider  {
+        height: 24px;
+        margin: 0 19%;
+    }
+}

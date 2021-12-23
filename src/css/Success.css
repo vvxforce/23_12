@@ -1,0 +1,22 @@
+.success {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.success-h1 {
+    margin: 4% 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 799px) {
+    .success {
+        font-size: 12px;
+    }
+    .success-h1 {
+        font-size: 6vh;
+        line-height: 1.2;
+    }
+}

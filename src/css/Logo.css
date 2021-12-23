@@ -1,0 +1,14 @@
+.logo {
+    height: 10.5vh;
+}
+.text {
+    padding: 0 0 0 21px;
+    font: 700 20px Grifter, sans-serif;
+}
+
+@media (max-width: 799px) {
+    .logo {
+        width: 10%;
+        height: auto;
+    }
+}

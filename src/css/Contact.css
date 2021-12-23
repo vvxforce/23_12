@@ -1,0 +1,11 @@
+.contacts {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (max-width: 799px) {
+    .contacts {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,20 @@
+.home-h1 {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+.home-strong {
+    display: block;
+    font-size: 47px;
+    font-weight: 700;
+}
+@media (max-width: 799px) {
+    .home-h1 {
+        margin: 7% 0;
+        font-size: 4.5vh;
+    }
+    .home-strong {
+        font-size: 6vh;
+    }
+}

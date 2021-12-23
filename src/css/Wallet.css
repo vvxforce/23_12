@@ -1,0 +1,27 @@
+.wallet-message {
+    margin: 1% 0;
+    padding: 1% 0;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.wallet-strong {
+    padding: 0 6px;
+    background: #0d3332;
+    color: #ffa02e;
+}
+.qr {
+    width: 190px;
+    margin: 0 0 3%;
+}
+.btn-copy {
+    position: absolute;
+    margin: -1px 29px;
+    border: 0;
+    background: transparent;
+}
+.wallet-link {
+    display: inline-block;
+    padding: 4% 13px 1px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}

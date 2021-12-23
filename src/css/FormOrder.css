@@ -1,0 +1,78 @@
+.form {
+    position: relative;
+    z-index: 1;
+    min-width: 335px;
+    padding: 0 0 0 4%;
+    color: #0d3332;
+}
+.form label {
+    display: none;
+}
+.h2 {
+    width: 48%;
+    min-width: 357px;
+    margin: 6% 0 40px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.w-100 {
+    position: relative;
+}
+.w-100,
+.form-group {
+    width: 42% !important;
+}
+.w-100 > .form-group,
+.time > .form-group {
+    width: 100% !important;
+}
+.form-group {
+    margin: 0 0 40px;
+}
+.gift {
+    width: 36%;
+}
+.time {
+    float: right;
+    width: 46%;
+}
+.btn.btn-danger {
+    color: #fff;
+    background: #0d3332;
+}
+.btn-success {
+    padding: 0 20%;
+    background: #acfffb;
+}
+.car + .w-100,
+.car > .form-group {
+    float: right;
+    margin: 0 14% 0 0;
+}
+.car > .form-group,
+.car-h2 {
+    display: inline-block;
+    vertical-align: top;
+}
+.car-h2 {
+    width: 35%;
+    margin: 0;
+}
+
+@media (max-width: 799px) {
+    .form {
+        padding: 0 4%;
+    }
+    .w-100,
+    .form-group {
+        width: 100% !important;
+    }
+    .car + .w-100,
+    .car > .form-group {
+        float: none;
+    }
+    .car > .form-group,
+    .car-h2 {
+        margin: 0 0 4vh;
+    }
+}

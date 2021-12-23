@@ -1,0 +1,15 @@
+.order {
+    width: 42%;
+}
+.row-0 {
+    background: linear-gradient(89.96deg, rgba(229, 255, 253, 0.25) 0.03%, rgba(162, 223, 220, 0) 102.31%);
+}
+.row-1 {
+    background: linear-gradient(89.96deg, rgba(162, 223, 220, 0.01) 0.03%, rgba(229, 255, 253, 0.25) 102.31%);
+}
+
+@media (max-width: 799px) {
+    .order {
+        width: 100%;
+    }
+}
